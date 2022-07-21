@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 19px;
+}
+
+#wrap {
+    width: 1240px;
+    height: 1300px;
+    margin: 0 auto;
+    /* border: 1px solid; */
+}
+
+/* header */
+.header {
+    margin: 15px;
+    padding: 50px;
+    vertical-align: middle;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.svg {
+    display: inline-block;
+}
+
+.svg svg {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    padding-bottom: 6px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.header_title {
+    float: right;
+    margin-top: 6px;
+}
+
+.head_title {
+    margin-right: 2rem;
+    display: inline-block;
+}
+
+.head_title {
+    transform: perspective(1px) translateZ(0);
+}
+
+.head_title:hover, .head_title:focus {
+    animation: buzz 0.15s linear infinite;
+}
+
+@keyframes buzz {
+    50% {
+        transform: translateX(3px) rotate(2deg);
+    }
+
+    100% {
+        transform: translateX(-3px) rotate(-2deg);
+    }
+}
+
+.sign-in {
+    margin-right: 0;
+}
+
+/* body */
+.body {
+    display: inline-block;
+}
+
+img {
+    width: 300px;
+    height: 350px;
+}
+
+.contents {
+    margin-left: 5rem;
+    float: left;
+    width: 300px;
+    height: 350px;
+    margin-right: 2rem;
+}
+
+.con {
+    margin: 0 5rem;
+}
+
+/* footer */
+.footer {
+    clear: both;
+    width: 1160px;
+    height: 450px;
+    margin-left: 2rem;
+    border: 1px solid rgb(235, 234, 234);
+    background: rgb(235, 234, 234);
+    bottom: 0%;
+}
+
+.footer_con {
+    margin: 50px;
+    float: right;
+}
+
+.footer_title {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 17rem;
+    height: 50px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+#btn_send {
+    background-color: rgb(44, 44, 54);
+    color: white;
+    padding: 13px;
+    border: 1px solid rgb(44, 44, 54);
+    border-radius: 5px;
+    margin-top: 25px;
+    font-size: small;
+}
+
+#get_in_tou {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    font-size: small;
+    color: rgb(184, 181, 181);
+    margin: 40px 0;
+}
+
+.footer_si {
+    float: left;
+    margin-right: 7rem;
+}
+
+.footer_side {
+    margin-bottom: 10px;
+}
+
+.footer_side img {
+    width: 3%;
+    height: 3%;
+}
