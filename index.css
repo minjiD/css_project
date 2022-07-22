@@ -5,7 +5,7 @@
 }
 
 #wrap {
-    width: 1240px;
+    width: 1340px;
     height: 2100px;
     margin: 0 auto;
     /* border: 1px solid; */
@@ -75,8 +75,9 @@ a:visited {
 /* body */
 .body_head {
     font-family: 'Edu VIC WA NT Beginner', cursive;
-    margin: 0 15px;
-    padding: 50px;
+    margin: 0 50px;
+    padding: 55px;
+    /* border: 1px solid; */
 }
 
 h1 {
@@ -95,6 +96,7 @@ h1 {
     margin-bottom: 30px;
     /* border: 1px solid; */
     float: left;
+    transition: all 0.2s linear;
 }   
 
 /* image */
@@ -114,6 +116,7 @@ img {
     width: 18.9rem;
     height: 13.15rem;
     text-align: center;
+    transition: all 0.2s linear;
 }
 
 .caption {
@@ -132,28 +135,28 @@ img {
 }
 
 #pic_01 {
-    margin-left: 2.8rem;
+    margin-left: 3.9rem;
 }
 
 #pic_04 {
-    margin-left: 2.8rem;
+    margin-left: 3.9rem;
 }
 
 #pic_07 {
-    margin-left: 2.8rem;
+    margin-left: 3.9rem;
 }
 
 #pic_10 {
-    margin-left: 2.8rem;
+    margin-left: 3.9rem;
     margin-bottom: 6.5rem;
 }
 
 /* footer */
 .footer {
     clear: both; /* float 사용 시 clear 필요 */
-    width: 1160px;
+    /* width: 1260px; */
     height: 450px;
-    margin-left: 2rem;
+    /* margin-left: 1rem; */
     border: 1px solid rgb(235, 234, 234);
     background: rgb(235, 234, 234);
     bottom: 0%;
